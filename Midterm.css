@@ -1,6 +1,6 @@
-﻿/* styling page */
+/* styling page */
 body {
-    font - family: Arial, sans - serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     background: #f4f4f4;
 }
@@ -8,7 +8,7 @@ body {
 header, footer {
     background: #000;
     color: #fff;
-    text - align:center;
+    text-align:center;
     padding: 15px;
 }
 
@@ -24,42 +24,42 @@ main {
 label {
     font-weight: bold;
     display: block;
-    margin - bottom:5px;
+    margin-bottom:5px;
 }
 
 /* class selector */
-.form - group {
-    margin - bottom:15px;
+.form-group {
+    margin-bottom:15px;
 }
 
 /* ID selector */
-# registration-form {
+#registration-form {
     border: 2px solid #000;
     padding: 20px;
 }
 
 /* attribute selector */
-input[type = "text"],
-input[type = "email"],
-input[type = "password"],
-input[type = "date"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select {
-    width: 100 %;
+    width: 100%;
     padding: 8px; /* padding = inside space */
     border: 1px solid #999;
-    border - radius:6px;
+    border-radius:6px;
 }
 
     /* pseudo-class */
-    input: focus, select: focus {
+    input:focus, select:focus {
         outline: 2px solid dodgerblue;
     }
 
 /* inline (radio & checkbox) */
 .inline {
-    display: inline - flex;
+    display: inline-flex;
     gap: 6px;
-    margin - right:15px;
+    margin-right:15px;
 }
 
 /* button */
@@ -72,6 +72,6 @@ select {
     cursor: pointer;
 }
 
-    .btn: hover {
+    .btn:hover {
         background: #333;
     }
